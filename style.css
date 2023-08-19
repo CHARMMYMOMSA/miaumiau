@@ -1,0 +1,24 @@
+h1 {font-family: 'Oswald', sans-serif;
+}
+main {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(231, 112, 112);
+  }
+  
+  main > h1, p, .browser {
+    margin: auto;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: rgb(222, 160, 247);
+  }
+  
+  .browser > h2, p {
+    margin: auto;
+    font-size: 90%;
+  }
+  form {
+    text-align: center;
+  }

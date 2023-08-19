@@ -4,39 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section id="formulario">
+    <main> 
+        <section id="formulario">
         
 
-        <form action="">
-            <p></p>
-              <label for="fname">NOMBRES:</label>
-             <input type="text" id="fname" name="fname"><br><br>
-             <label for="lname">APELLIDOS:</label>
-              <input type="text" id="lname" name="lname"><br><br>
-              <input type="email" value="">
+            <form action="">
+                
+                <article class="browser">>
+                <h1>QUIERES SABER MAS DEL K-POP O DE COREA</h1>
+                <p>COMPLETA EL TEST</p>
+                <label for="fname">NOMBRES:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">APELLIDOS:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="email">
+                </article>
+                <article class="browser">
+                <p>¿Cuentos años tiene?</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">10 a 18</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+                <label for="css">19 a 27</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">28 a 35</label><br><br>
+                </article>
+                <article class="browser">
+                <p>Escoger la fecha de encuentro </p>
+                <label for="birthdaytime">fecha y hora:</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
 
-            <h1>¿Cuentos años tiene?</h1>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">10 a 18</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
-            <label for="css">19 a 27</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">28 a 35</label><br><br>
-            
-            <br>
-            <h1>Escoger la fecha de encuentro</h1> 
-            <label for="birthdaytime">fecha y hora:</label>
-            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-
-             <input type="submit" value="Submit">
-        </form>
-
-
-
-    </section>
-
+                <input type="submit" value="Submit">
+                </article>
+            </form>
+        </section>
+    </main>
+    
+    
 
     
 </body>
