@@ -7,7 +7,7 @@ main {
   }
   
   main > h1, p, .browser {
-    margin: auto;
+    margin: 5px;
     padding: 5px;
   }
   
@@ -16,9 +16,12 @@ main {
   }
   
   .browser > h2, p {
-    margin: auto;
+    margin: 20%;
     font-size: 90%;
   }
   form {
     text-align: center;
+  }
+  label {
+    cursor: default;
   }
